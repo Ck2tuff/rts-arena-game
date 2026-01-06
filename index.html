@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RTS Arena Game</title>
+
+    <!-- Mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>RTS Arena</h1>
+
+    <div id="gameContainer">
+        <canvas id="gameCanvas"></canvas>
+    </div>
+
+    <div id="ui">
+        <div id="elixirBar">
+            Elixir: <span id="elixirValue">0</span>
+        </div>
+
+        <button id="spawnUnitBtn">
+            Play Unit (3)
+        </button>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
+
